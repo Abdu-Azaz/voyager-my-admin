@@ -10,7 +10,7 @@
 </p>
 
 # **V**oyager - The Missing Laravel Admin
-Made with ❤️ by [The Control Group](https://www.thecontrolgroup.com)
+Made with ❤️ by [The Control Group](https://www.thecontrolgroup.com) And Edited by @Abdu-Azaz
 
 ![Voyager Screenshot](https://s3.amazonaws.com/thecontrolgroup/voyager-screenshot.png)
 
