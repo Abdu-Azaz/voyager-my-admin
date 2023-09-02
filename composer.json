@@ -1,15 +1,18 @@
 {
     "name": "tcg/voyager",
-    "description": "A Laravel Admin Package for The Control Group to make your life easier and steer your project in the right direction",
+    "description": "Slightly customized admin panel for laravel, created by control group",
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
-    "homepage": "https://voyager.devdojo.com/",
     "support": {
         "issues": "https://github.com/the-control-group/voyager/issues",
         "source": "https://github.com/the-control-group/voyager"
     },
     "authors": [
-        {
+	    {
+	    	"name":"Abdurrahman Azaz",
+		"email":"abdurrahmann.azaz@gmail.com"
+	    },
+	    {
             "name": "Tony Lea",
             "email": "tony.lea@thecontrolgroup.com"
         }
@@ -52,5 +55,12 @@
                 "TCG\\Voyager\\Providers\\VoyagerDummyServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+   	 {
+       		 "type": "vcs",
+        	 "url": "https://github.com/Abdu-Azaz/voyager-my-admin.git"
+    	}
+    ]
+
 }

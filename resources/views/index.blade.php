@@ -4,6 +4,7 @@
     <div class="page-content">
         @include('voyager::alerts')
         @include('voyager::dimmers')
+        {{-- <small>Google Analytics PAnel is hidden</small> --}}
         <div class="analytics-container">
             <?php $google_analytics_client_id = Voyager::setting("admin.google_analytics_client_id"); ?>
             @if (isset($google_analytics_client_id) && !empty($google_analytics_client_id))
@@ -16,7 +17,7 @@
                 </p>
             @endif
 
-            <div class="Dashboard Dashboard--full" id="analytics-dashboard">
+            {{-- <div class="Dashboard Dashboard--full" id="analytics-dashboard">
                 <header class="Dashboard-header">
                     <ul class="FlexGrid">
                         <li class="FlexGrid-item">
@@ -74,14 +75,14 @@
                         </div>
                     </li>
                 </ul>
-            </div>
+            </div> --}}
         </div>
     </div>
 @stop
 
 @section('javascript')
 
-    @if(isset($google_analytics_client_id) && !empty($google_analytics_client_id))
+    {{-- @if(isset($google_analytics_client_id) && !empty($google_analytics_client_id))
         <script>
             (function (w, d, s, g, js, fs) {
                 g = w.gapi || (w.gapi = {});
@@ -469,6 +470,6 @@
 
         </script>
 
-    @endif
+    @endif --}}
 
 @stop

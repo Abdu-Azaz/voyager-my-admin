@@ -243,6 +243,7 @@
                                 <img src="{{ filter_var($dataTypeContent->image, FILTER_VALIDATE_URL) ? $dataTypeContent->image : Voyager::image( $dataTypeContent->image ) }}" style="width:100%" />
                             @endif
                             <input type="file" name="image">
+                            
                         </div>
                     </div>
 

@@ -4,6 +4,7 @@
 
 @section('page_header')
     <h1 class="page-title">
+        
         <i class="{{ $dataType->icon }}"></i> {{ __('voyager::generic.viewing') }} {{ ucfirst($dataType->getTranslatedAttribute('display_name_singular')) }} &nbsp;
 
         @can('edit', $dataTypeContent)

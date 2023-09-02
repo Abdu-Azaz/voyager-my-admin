@@ -7,8 +7,8 @@ $dimmerGroups = Voyager::dimmers();
     $count = $dimmerGroup->count();
     $classes = [
         'col-xs-12',
-        'col-sm-'.($count >= 2 ? '6' : '12'),
-        'col-md-'.($count >= 3 ? '4' : ($count >= 2 ? '6' : '12')),
+        'col-sm-3',
+        'col-md-3'.($count >= 3 ? '4' : ($count >= 2 ? '6' : '12')),
     ];
     $class = implode(' ', $classes);
     $prefix = "<div class='{$class}'>";
