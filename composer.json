@@ -1,5 +1,5 @@
 {
-    "name": "tcg/voyager",
+    "name": "azaz/voyager",
     "description": "Slightly customized admin panel for laravel, created by control group",
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
